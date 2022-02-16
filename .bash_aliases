@@ -1,6 +1,5 @@
 alias cls='clear'
 alias ..='cd ..'
-alias -='cd -'
 alias mkdir='mkdir -pv' # Create parent dir and display the name of each folder created
 alias diff='colordiff'
 alias path='echo -e ${PATH//:/\\n}' # Display content of path
