@@ -67,9 +67,9 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 ##############################################################################################
 # DEFAULT BASHRC COPY
 # set a fancy prompt (non-color, unless we know we "want" color)
-case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
-esac
+#case "$TERM" in
+#    xterm-color|*-256color) color_prompt=yes;;
+#esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
