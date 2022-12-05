@@ -11,6 +11,9 @@ alias du='du -ch' # Total and human readable
 # Update this project and re-source it
 alias upalias='git -C ~/bash_aliases/ pull && . ~/bash_aliases/.bash_aliases'
 
+# Update pip
+uppip='pip install --upgrade pip'
+
 # Do not delete / or prompt if deleting more than 3 files at a time #
 alias rm='rm -I --preserve-root'
  
